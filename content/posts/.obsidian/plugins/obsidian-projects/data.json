@@ -1,0 +1,392 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Script Konten",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "Pain": {
+                "width": 203
+              }
+            },
+            "orderFields": [
+              "name",
+              "Date",
+              "Status",
+              "path",
+              "Upload",
+              "Due Date"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "Upload",
+                "operator": "is-not-checked",
+                "enabled": true
+              },
+              {
+                "field": "Date",
+                "operator": "is-on-and-after",
+                "enabled": true,
+                "value": "2024-01-01"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "3bdd8027-96f0-4a95-a4e8-e3ba92dbf47d",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "Date"
+            ],
+            "groupByField": "Status",
+            "columns": {
+              "No status": {
+                "weight": 0
+              },
+              "Script": {
+                "weight": 1
+              },
+              "Selesai": {
+                "weight": 2
+              }
+            }
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "Date",
+                "operator": "is-on-and-after",
+                "enabled": true,
+                "value": "2024-01-01"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c1782a17-7a17-4907-91c3-3e370f88f69c",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "2weeks",
+            "checkField": "Upload",
+            "dateField": "Due Date"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#2bd709",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Selesai"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "74ddac6f-655b-4a01-b957-b539a76ea932",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "8f6b58c9-22de-4b7a-8d8d-4a2f91f5e48c",
+      "name": "Script Konten"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Template/Script konten.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Script Konten/Stevia",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "Date",
+              "Due Date",
+              "Status",
+              "Upload",
+              "Pain"
+            ],
+            "fieldConfig": {
+              "Pain": {
+                "width": 210
+              },
+              "Upload": {
+                "width": 137
+              },
+              "Status": {
+                "width": 129
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Due Date",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "030ae28f-0cdf-45f0-86a0-9c040feed206",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "columns": {
+              "No status": {
+                "weight": 0
+              }
+            },
+            "groupByField": "Status",
+            "includeFields": [
+              "Due Date"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#48f000",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Selesai"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "102474e6-8fea-42a7-9c45-a63d3e05623a",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "9d8312a7-db12-49a9-a407-3f6da2f4e8f5",
+      "name": "Stevia"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Template/Script konten.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Script Konten/Bromen",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "415df770-552b-4500-bd19-e513ba88b07f",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "71f34510-2591-49ef-9c1e-82c8c5be43c7",
+      "name": "Bromen"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Template/Script konten.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Script Konten/Cuka Apel",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "72cae5b7-4774-41be-96bd-f81a9d20c673",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "4675e081-a82c-48fb-b607-ac7cb785fdd1",
+      "name": "Cuka Apel"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Template/Script konten.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Script Konten/Elvasense",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "65ee6fc7-dcfc-4d6d-bc1e-bf25e3795edd",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "9a8f6f6e-5391-451b-8a34-9bbcd4998d84",
+      "name": "Elvasense"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Template/Script konten.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Script Konten/Lumbar Gel",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "133887b1-256f-41cf-a06e-078bb56ffbed",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "aa52edef-56d0-4202-94cd-ae5329e86519",
+      "name": "Lumbar Gel"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

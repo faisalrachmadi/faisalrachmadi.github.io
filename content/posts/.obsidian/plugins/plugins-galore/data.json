@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "plugins-galore": {
+      "repo": {
+        "domain": "github.com",
+        "owner": "dylanpizzo",
+        "name": "obsidian-plugins-galore",
+        "url": "https://github.com/dylanpizzo/obsidian-plugins-galore",
+        "type": "github"
+      },
+      "version": "0.1.1"
+    },
+    "custom-font-loader": {
+      "repo": {
+        "domain": "github.com",
+        "owner": "pourmand1376",
+        "name": "obsidian-custom-font",
+        "url": "https://github.com/pourmand1376/obsidian-custom-font",
+        "type": "github"
+      },
+      "version": "1.2.0"
+    }
+  }
+}

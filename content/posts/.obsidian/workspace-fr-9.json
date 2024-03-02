@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "4fe443267cf7259f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf1ade4aacaef706",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0915224259690234",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "184552ba4a2d7bcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Materi jogging.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5a7313039eaa946",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76ffd6831ce32949",
+    "type": "split",
+    "children": [
+      {
+        "id": "c64d6d4afd25d102",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d5fe20450367998",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "b35ba61eef7baa83",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"version\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dcb513bf7b3fb70e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 214.5086555480957
+  },
+  "right": {
+    "id": "8bb2b86e6d76beed",
+    "type": "split",
+    "children": [
+      {
+        "id": "1917bd9f903257ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05604c0a90af5384",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f9dfb0231ba58563",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled 3.md"
+              }
+            }
+          },
+          {
+            "id": "7ce9ed33a2627769",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "80a5f8d8c1851b2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a6ec0083fcf59cbf",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "9ea0b4cd54d95733",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "396dd81b8bcbaf27",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "636e1a387ee17f15",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "74bcccec2a5955ee",
+            "type": "leaf",
+            "state": {
+              "type": "playground-view",
+              "state": {
+                "openInPopout": false,
+                "id": "ef3fbdfd-738d-4da0-bda8-a3e326c525fa",
+                "input": "",
+                "answer": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 451.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-day-planner:Timeline": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "copilot:Copilot Chat": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+    }
+  },
+  "active": "c5a7313039eaa946",
+  "lastOpenFiles": [
+    "Materi jogging.md",
+    "Untitled 3.md",
+    "Untitled 3-fr.md",
+    "Untitled 3-fr.md~RFb586b4.TMP",
+    "Untitled 2.md",
+    "Catatan/Kastemer journey.md",
+    "SCAMPER.md",
+    "Belajar GIT/Outline GIT.md",
+    "Catatan/Deskripsi Untuk Podcast.md",
+    "List Video Edit.md",
+    "Sekolah/Template Whatsapp.md",
+    "Sekolah/Konten Youtube Auliya.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Screenshot_20240202-225543.png",
+    "Screenshot_20240201-224015.png",
+    "JSON Dart.md",
+    "Jeckyll.md",
+    "Kajian/Ensiklopedia shalat/sunnah muaqad.md",
+    "Template/Pertanyaan Dart.md",
+    "File/Copywriting Hacks for Beginners.pdf",
+    "File/MATERI STORYTELLING SYCA.pdf",
+    "File/Pasted image 20240111110709.png",
+    "File/Pasted image 20240111130617.png",
+    "bagaimana-fr.md",
+    "bagaimana.md",
+    "Git Ignore.md",
+    "Dart/Collection/Perbedaan Set dengan List.md",
+    "Dart/Collection/Outline.md",
+    "Dart/Pertanyaan Dart.md",
+    "Dart/Collection/List/Metode Bawaan List.md",
+    "Dart/Collection/Pengertian Map Dan Strukturnya.md",
+    "Dart/Collection/Pengertian Map.md",
+    "Dart/Collection/List",
+    "Dart/Collection",
+    "Dampak Harta Haram Bagi Keberkahan Keluarga   Ustadz Ammi Nur Baits.mp3",
+    "Sekolah/PPG",
+    "Untitled.md~RF1b0e113.TMP",
+    "shared_image.jpg",
+    "Timeline PPG",
+    "Materi Konten/Stevia",
+    "Pasted image 20240108181832.png",
+    "Pasted image 20240108181850.png",
+    "Sekolah/Penyusunan SOP/Pasted image 20231218095550.png",
+    "Pasted Image 20231223154856_571.png",
+    "Pasted Image 20231223182013_365.png",
+    "Untitled.canvas"
+  ]
+}
