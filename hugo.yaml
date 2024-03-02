@@ -4,8 +4,18 @@ title: Faradigma
 theme: ["PaperMod"]
 
 params:
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+      
   profileMode:
-    enabled: true
+    enabled: false
     title: "<Title>" # optional default will be site title
     subtitle: "Tempat Belajar Digital Marketing"
     imageUrl: "profil.png" # optional
