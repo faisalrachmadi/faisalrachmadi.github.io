@@ -14,21 +14,21 @@ params:
     - name: "<platform 2>"
       url: "<link2>"
       
-  profileMode:
-    enabled: false
-    title: "<Title>" # optional default will be site title
-    subtitle: "Tempat Belajar Digital Marketing"
-    imageUrl: "profil.png" # optional
-    imageTitle: "faisal Rachmadi" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
-    buttons:
-      - name: Posts
-        url: "/posts"
-      - name: Archive
-        url: "/archive"
-      # - name: Github
-      #   url: "https://github.com/"
+  # profileMode:
+  #   enabled: false
+  #   title: "<Title>" # optional default will be site title
+  #   subtitle: "Tempat Belajar Digital Marketing"
+  #   imageUrl: "profil.png" # optional
+  #   imageTitle: "faisal Rachmadi" # optional
+  #   imageWidth: 120 # custom size
+  #   imageHeight: 120 # custom size
+  #   buttons:
+  #     - name: Posts
+  #       url: "/posts"
+  #     - name: Archive
+  #       url: "/archive"
+  #     # - name: Github
+  #     #   url: "https://github.com/"
 
   socialIcons: # optional
     - name: "<platform>"
