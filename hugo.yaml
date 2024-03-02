@@ -5,8 +5,9 @@ theme: ["PaperMod"]
 
 params:
   homeInfoParams:
-    Title: Hi there wave
+    Title: Nulis Tulisan Digital Marketing
     Content: Can be Info, links, about...
+    
 
   socialIcons: # optional
     - name: "<platform>"
@@ -19,7 +20,7 @@ params:
   #   title: "<Title>" # optional default will be site title
   #   subtitle: "Tempat Belajar Digital Marketing"
   #   imageUrl: "profil.png" # optional
-  #   imageTitle: "faisal Rachmadi" # optional
+  #   imageTitle: "faisal Rachmadi" # optionalx`
   #   imageWidth: 120 # custom size
   #   imageHeight: 120 # custom size
   #   buttons:
