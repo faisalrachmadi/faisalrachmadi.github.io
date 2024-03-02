@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Faradigma</title>
+<meta name="keywords" content="">
+<meta name="description" content="Always use the COSTAR prompt framework: Context (C): Provide essential background information or setting for the task. This helps the LLM understand the specific scenario or domain it is dealing with, leading to more relevant responses. Objective (O): Clearly articulate the goal or purpose of the prompt. Specify what you want the LLM to accomplish, ensuring that its focus remains on achieving this particular aim. Style (S): Define the desired style of the response.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/prompt-tips/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/prompt-tips/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Faradigma (Alt + H)">Faradigma</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">
+
+</div>
+  </header> 
+  <div class="post-content"><ol>
+<li>Always use the COSTAR prompt framework:
+Context (C): Provide essential background information or setting for the task. This helps the LLM understand the specific scenario or domain it is dealing with, leading to more relevant responses.
+Objective (O): Clearly articulate the goal or purpose of the prompt. Specify what you want the LLM to accomplish, ensuring that its focus remains on achieving this particular aim.
+Style (S): Define the desired style of the response. This could range from imitating the writing style of a specific profession, like a scientist or journalist, to emulating the narrative tone of certain genres, such as formal reports or creative fiction.
+Tone (T): Determine the emotional or attitudinal coloring of the response. Whether it’s formal, casual, enthusiastic, or empathetic, setting the tone ensures the LLM&rsquo;s response aligns with the intended sentiment.
+Audience (A): Identify the target audience for whom the response is intended. Tailoring the content and complexity of the LLM&rsquo;s response to suit the audience, such as experts, beginners, or a general readership, ensures better comprehension and engagement.
+Response Format (R): Specify the format in which you want the response. This could be a list, a structured report, a JSON object, a narrative, etc. Defining the format helps in generating responses that are suitable for your subsequent use, whether it be for analysis, presentation, or further processing.</li>
+<li>Break down complex tasks into a sequence of simpler prompts in an interactive conversation.</li>
+<li>Employ affirmative directives such as `do,&rsquo; while steering clear of negative language like &lsquo;don&rsquo;t&rsquo;.</li>
+<li>Implement example-driven prompting (Use few-shot prompting).</li>
+<li>Use following phrases: &ldquo;Your task is&rdquo; and &ldquo;You MUST&rdquo;.</li>
+<li>Always use leading words like writing &ldquo;think step by step&rdquo;.</li>
+<li>Assign a role to the model i.e. &ldquo;you are an expert ___&rdquo;</li>
+<li>Repeat specific words or phrases multiple times within a prompt.</li>
+<li>Try to induce Chain-of-thought (CoT) when possible, guiding the LLM to do dive in deeper to each step</li>
+<li>Use output primers, which involve concluding your prompt with the beginning of the desired output. Utilize output primers by ending your prompt with the start of the anticipated response.</li>
+<li>To write an essay /text /paragraph /article or any type of text that should be detailed: &ldquo;Write an ultra-detailed [essay/text /paragraph] for me on [topic] in detail by adding all the information necessary&rdquo;.</li>
+</ol>
+<hr>
+<ol>
+<li>
+<p>Selalu gunakan kerangka COSTAR prompt:
+Konteks (C): Berikan informasi latar belakang atau pengaturan penting untuk tugas tersebut. Ini membantu LLM memahami skenario atau domain tertentu yang sedang dihadapinya, sehingga menghasilkan tanggapan yang lebih relevan.
+Tujuan (O): Jelaskan dengan jelas tujuan atau tujuan dari prompt tersebut. Tentukan apa yang Anda inginkan LLM capai, memastikan fokusnya tetap pada pencapaian tujuan tertentu ini.
+Gaya (S): Tentukan gaya tanggapan yang diinginkan. Ini bisa berkisar dari meniru gaya penulisan profesi tertentu, seperti ilmuwan atau jurnalis, hingga meniru nada naratif dari genre tertentu, seperti laporan formal atau fiksi kreatif.
+Tone (T): Tentukan warna emosional atau sikap tanggapan. Baik itu formal, santai, antusias, atau empatik, menetapkan nada memastikan tanggapan LLM sesuai dengan sentimen yang dimaksud.
+Audience (A): Identifikasi audiens target untuk siapa tanggapan dimaksudkan. Menyesuaikan konten dan kompleksitas respons LLM untuk sesuai dengan audiens, seperti ahli, pemula, atau pembaca umum akan memastikan pemahaman dan keterlibatan yang lebih baik.
+Format Tanggapan (R): Tentukan format respons yang Anda inginkan. Ini bisa berupa daftar, laporan terstruktur JSON object , naratif , dll . Mendefinisikan format membantu dalam menghasilkan respons yang cocok untuk penggunaan selanjutnya Anda , baik itu untuk analisis , presentasi , maupun pengolahan lebih lanjut.</p>
+</li>
+<li>
+<p>Memecahkan tugas kompleks menjadi serangkaian prompt sederhana dalam percakapan interaktif.</p>
+</li>
+<li>
+<p>Gunakan direktif afirmatif seperti &rsquo;lakukan&rsquo;, sementara menjauhi bahasa negatif seperti &lsquo;jangan&rsquo;.</p>
+</li>
+<li>
+<p>Terapkan prompting berbasis contoh (Gunakan few-shot prompting).</p>
+</li>
+<li>
+<p>Gunakan frasa-frasa berikut: &ldquo;Tugas Anda adalah&rdquo; dan &quot;</p>
+</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://localhost:1313/">Faradigma</a></span>
+    <span>
+        by
+        faisal rachmadi digital marketing
+        
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
