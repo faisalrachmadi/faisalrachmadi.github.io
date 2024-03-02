@@ -1,19 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Effect on Faradigma</title>
+    <title>Effect - Tag - Faradigma</title>
     <link>http://localhost:1313/tags/effect/</link>
-    <description>Recent content in Effect on Faradigma</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/effect/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/website--footage-video/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/website--footage-video/</guid>
-      <description>www.productioncrate.com www.eyecandy.com www.cinepacks.com</description>
-    </item>
-  </channel>
+    <description>Effect - Tag | Faradigma</description>
+    <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 25 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/effect/" rel="self" type="application/rss+xml" /><item>
+  <title></title>
+  <link>http://localhost:1313/posts/website--footage-video/</link>
+  <pubDate>Thu, 25 Jan 2024 00:00:00 &#43;0000</pubDate>
+  <author>Author</author>
+  <guid>http://localhost:1313/posts/website--footage-video/</guid>
+  <description><![CDATA[www.productioncrate.com www.eyecandy.com www.cinepacks.com]]></description>
+</item>
+</channel>
 </rss>

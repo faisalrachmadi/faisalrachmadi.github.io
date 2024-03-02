@@ -1,29 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Diabetes on Faradigma</title>
+    <title>Diabetes - Tag - Faradigma</title>
     <link>http://localhost:1313/tags/diabetes/</link>
-    <description>Recent content in Diabetes on Faradigma</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/diabetes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/mitos-vs-fakta/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mitos-vs-fakta/</guid>
-      <description>Mitos:
+    <description>Diabetes - Tag | Faradigma</description>
+    <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://localhost:1313/tags/diabetes/" rel="self" type="application/rss+xml" /><item>
+  <title></title>
+  <link>http://localhost:1313/posts/mitos-vs-fakta/</link>
+  <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+  <author>Author</author>
+  <guid>http://localhost:1313/posts/mitos-vs-fakta/</guid>
+  <description><![CDATA[Mitos:
 [[Neuropati]] hanya disebabkan oleh diabetes: Ini adalah salah satu mitos yang paling umum. Meskipun diabetes adalah penyebab utama neuropati, ada banyak kondisi lain yang juga bisa menyebabkannya, seperti cedera fisik, infeksi, gangguan autoimun, dan bahkan beberapa obat.
-Neuropati selalu permanen: Banyak orang berpikir bahwa sekali Anda memiliki neuropati, itu tidak akan pernah membaik. Ini tidak benar. Dalam beberapa kasus, jika penyebabnya dapat diidentifikasi dan ditangani, gejala neuropati dapat membaik atau bahkan hilang sepenuhnya.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/neuropati-terhadap-diabetes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/neuropati-terhadap-diabetes/</guid>
-      <description>berikan ide konten tentang neuropati diabetes terhadap nyeri sendi dan pinggang
+Neuropati selalu permanen: Banyak orang berpikir bahwa sekali Anda memiliki neuropati, itu tidak akan pernah membaik. Ini tidak benar. Dalam beberapa kasus, jika penyebabnya dapat diidentifikasi dan ditangani, gejala neuropati dapat membaik atau bahkan hilang sepenuhnya.]]></description>
+</item>
+<item>
+  <title></title>
+  <link>http://localhost:1313/posts/neuropati-terhadap-diabetes/</link>
+  <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+  <author>Author</author>
+  <guid>http://localhost:1313/posts/neuropati-terhadap-diabetes/</guid>
+  <description><![CDATA[berikan ide konten tentang neuropati diabetes terhadap nyeri sendi dan pinggang
 Neuropati diabetes adalah kondisi yang terjadi ketika gula darah tinggi merusak saraf-saraf di tubuh. Saraf-saraf yang rusak ini dapat menyebabkan berbagai gejala, termasuk nyeri sendi dan pinggang.
-Ketika gula darah tinggi tidak terkontrol, hal ini dapat merusak saraf-saraf di tubuh, terutama pada kaki dan tangan. Akibatnya, seseorang dengan neuropati diabetes mungkin mengalami kesemutan, mati rasa, atau nyeri yang tajam pada sendi dan pinggang.</description>
-    </item>
-  </channel>
+Ketika gula darah tinggi tidak terkontrol, hal ini dapat merusak saraf-saraf di tubuh, terutama pada kaki dan tangan. Akibatnya, seseorang dengan neuropati diabetes mungkin mengalami kesemutan, mati rasa, atau nyeri yang tajam pada sendi dan pinggang.]]></description>
+</item>
+</channel>
 </rss>

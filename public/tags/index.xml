@@ -1,40 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Tags on Faradigma</title>
+    <title>Tags - Tag - Faradigma</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Faradigma</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Effect</title>
-      <link>http://localhost:1313/tags/effect/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/effect/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Footage</title>
-      <link>http://localhost:1313/tags/footage/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/footage/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Video</title>
-      <link>http://localhost:1313/tags/video/</link>
-      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/video/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Diabetes</title>
-      <link>http://localhost:1313/tags/diabetes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/diabetes/</guid>
-      <description></description>
-    </item>
-  </channel>
+    <description>Tags - Tag | Faradigma</description>
+    <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 25 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+  <title>Effect</title>
+  <link>http://localhost:1313/tags/effect/</link>
+  <pubDate>Thu, 25 Jan 2024 00:00:00 &#43;0000</pubDate>
+  <author>Author</author>
+  <guid>http://localhost:1313/tags/effect/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Footage</title>
+  <link>http://localhost:1313/tags/footage/</link>
+  <pubDate>Thu, 25 Jan 2024 00:00:00 &#43;0000</pubDate>
+  <author>Author</author>
+  <guid>http://localhost:1313/tags/footage/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Video</title>
+  <link>http://localhost:1313/tags/video/</link>
+  <pubDate>Thu, 25 Jan 2024 00:00:00 &#43;0000</pubDate>
+  <author>Author</author>
+  <guid>http://localhost:1313/tags/video/</guid>
+  <description><![CDATA[]]></description>
+</item>
+<item>
+  <title>Diabetes</title>
+  <link>http://localhost:1313/tags/diabetes/</link>
+  <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+  <author>Author</author>
+  <guid>http://localhost:1313/tags/diabetes/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
